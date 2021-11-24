@@ -64,10 +64,6 @@ public class Ball implements Observable {
         return stringBuilder.toString();
     }
 
-    @Override
-    public int hashCode(){
-        return Objects.hash(center,radius);
-    }
 
     @Override
     public void attach(Observer observer) {
