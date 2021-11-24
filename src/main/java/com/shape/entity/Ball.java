@@ -84,7 +84,7 @@ public class Ball implements Observable {
     @Override
     public void notifyObservers() {
         if (observer == null) {
-            logger.log(Level.INFO,"shape.fds.test.shape.test.shape.validator.validator.observer.Observer is null");
+            logger.log(Level.INFO,"Observer is null");
             return;
         }
         BallEvent ballEvent = new BallEvent(this);
